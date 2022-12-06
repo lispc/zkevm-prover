@@ -1,4 +1,9 @@
 {
+    "runFileProcessBatch": true,
+    "saveRequestToFile": true,
+    "saveInputToFile": true,
+    "saveResponseToFile": true,
+    "saveOutputToFile": true,
     "runProverServer": false,
     "runProverServerMock": false,
     "runProverClient": false,
@@ -10,6 +15,9 @@
     "runStateDBTest": false,
 
     "runFile": true,
+    "runFileGenProof": true,
+    "opcodeTracer": true,
+    "executorROMLineTraces": false,
     "runFileFast": false,
 
     "runKeccakScriptGenerator": false,
@@ -34,7 +42,7 @@
     "stateDBServerPort": 50061,
     "stateDBURL": "local",
     "inputFile": "tests/",
-    "outputPath": "output",
+    "outputPath": "output7",
     "romFile": "rom.json",
     "pilFile": "zkevm.pil.json",
     "cmPolsFile_disabled": "zkevm.commit",

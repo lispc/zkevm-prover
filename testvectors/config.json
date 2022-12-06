@@ -23,12 +23,14 @@
 
     "executeInParallel": true,
     "useMainExecGenerated": false,
-    "saveInputToFile": false,
+    "saveRequestToFile": true,
+    "saveResponseToFile": true,
+    "saveInputToFile": true,
     "saveDbReadsToFile": false,
     "saveDbReadsToFileOnChange": false,
-    "saveOutputToFile": false,
+    "saveOutputToFile": true,
     "loadDBToMemCache": true,
-    "opcodeTracer": false,
+    "opcodeTracer": true,
     "logRemoteDbReads": false,
     "logExecutorServerResponses": false,
 
@@ -47,7 +49,7 @@
     "stateDBURL": "local",
 
     "inputFile": "input_executor.json",
-    "outputPath": "output",
+    "outputPath": "output6",
     "romFile": "rom.json",
     "cmPolsFile_disabled": "zkevm.commit",
     "cmPolsFileC12a_disabled": "zkevm.c12a.commit",
